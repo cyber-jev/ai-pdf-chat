@@ -206,7 +206,7 @@ export default function Home() {
             <div className="shrink-0 px-4 pb-6 pt-3 border-t border-gray-800">
               <div className="flex gap-2">
                 <input
-                  className="flex-1 bg-gray-900 border border-gray-700 focus:border-green-500 rounded-xl px-4 py-3 text-sm outline-none transition-colors"
+                  className="flex-1 bg-gray-900 border border-gray-700 focus:border-green-500 rounded-xl px-4 py-3 text-base outline-none transition-colors"
                   placeholder="Ask anything about your PDF..."
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
